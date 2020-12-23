@@ -37,11 +37,7 @@ python face_landmark_detection.py ${content_path} ${style_path} ${content_pts_pa
 
 Now, run deformable style transfer, this step will take ~1.5 minutes on a single GPU.
 
-By default, DST will stylize the image at three scales (small to big) with **max_iter** iterations at each scale. Change **content_weight** (alpha) and **warp_weight** (beta) to control the relative importance of content preservation and deformation to stylization, and **reg_weight** (gamma) to control the amount of regularization on the deformation. We like using 8, 0.5, and 50, respectively.
-
-Set **verbose** to 1 to get the individual loss term values during training.  
-Set **save_intermediate** to 1 to get intermediate stylized images every **checkpoint_iter** iterations.  
-Set **save_extra** to 1 to get additional plots (e.g. content/stylized images naively warped, content image with DST warp) with points and arrows marked.
+Please check parameter adjustment in DST repo [[code]](https://github.com/sunniesuhyoung/DST). 
 
 ```
 python main.py ${content_path} ${style_path} ${content_pts_path} ${style_pts_path} \
@@ -55,11 +51,11 @@ python main.py ${content_path} ${style_path} ${content_pts_path} ${style_pts_pat
 Result from `run.sh` with Barack Obama as the content image and 
 Vincent van Gogh's self-portrait with the style image.
 
-[Teaser Image](data/teaser/demo.png) 
+![](data/teaser/demo.png) 
 
 #### More Results
 
-[More Results](data/teaser/more.png) 
+![](data/teaser/more.png) 
 
 
 ## Acknowledgment
