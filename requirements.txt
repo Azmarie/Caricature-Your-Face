@@ -1,0 +1,11 @@
+numpy
+torch
+torchvision
+Image
+matplotlib
+sklearn
+ljson
+dlib
+scikit-image
+opencv-python
+imutils
