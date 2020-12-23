@@ -1,0 +1,18 @@
+.DS_Store
+venv/
+.vscode/
+__pycache__/
+
+# This file is 100 MB on disk 
+# */shape_predictor_68_face_landmarks.dat
+
+data/output/
+data/content/*.jpg
+!data/content/barack_obama.jpg
+data/content/pts/*
+!data/content/pts/barack_obama.txt
+
+# data/output/**/intermediate
+# data/output/**/loss
+# data/output/**/plots
+# data/output/**/points
