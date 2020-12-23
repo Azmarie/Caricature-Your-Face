@@ -49,7 +49,7 @@ python main.py ${content_path} ${style_path} ${content_pts_path} ${style_pts_pat
 
 #### Demo 
 Result from `run.sh` with Barack Obama as the content image and 
-Vincent van Gogh's self-portrait with the style image.
+Vincent van Gogh's self-portrait with the style image. Images from left to right are: input content image, input style image, a standard style transfer output, demo output.
 
 ![](data/teaser/demo.png) 
 
