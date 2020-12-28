@@ -1,6 +1,9 @@
 # Caricature Your Face
 
-Using [The Face of Arts](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) and [DST](https://sunniesuhyoung.github.io/DST-page/) to generate geometry-aware face caricatures.
+💡 Using [The Face of Arts](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) and [DST](https://sunniesuhyoung.github.io/DST-page/) to generate geometry-aware face caricatures.
+
+📖 This project in details with analysis: [Geometry-Aware Style Transfer: Implementation and Analysis](https://medium.com/@azmariewang)
+
 
 ## Requirements
 
@@ -60,7 +63,8 @@ Vincent van Gogh's self-portrait with the style image. Images from left to right
 
 ## Acknowledgment
 - [Dilb](http://dlib.net/face_landmark_detection.py.html) facial landmark
-- Deformable Style Transfer (DST) [[code]](https://github.com/sunniesuhyoung/DST) | [Paper](https://arxiv.org/abs/2003.11038)
+- Deformable Style Transfer (DST) [[code]](https://github.com/sunniesuhyoung/DST)  [[paper]](https://arxiv.org/abs/2003.11038)
+- The Face of Art: Landmark Detection and Geometric Style in Portraits [[website]](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp)  [[paper]](https://faculty.idc.ac.il/arik/site/foa/The_Face_of_Art.pdf)
 - Style Transfer by Relaxed Optimal Transport and Self-Similarity. Nicholas Kolkin, Jason Salavon and Gregory Shakhnarovich. CVPR 2019. [[paper]](https://arxiv.org/abs/1904.12785) [[code]](https://github.com/nkolkin13/STROTSS) [[David Futschik's implementation]](https://github.com/futscdav/strotss)
 - WarpGAN: Automatic Caricature Generation. Yichun Shi, Debayan Deb and Anil K. Jain. CVPR 2019. [[paper]](https://arxiv.org/abs/1811.10100) [[code]](https://github.com/seasonSH/WarpGAN)
 - Neural Best-Buddies: Sparse Cross-Domain Correspondence. Kfir Aberman, Jing Liao, Mingyi Shi, Dani Lischinski, Baoquan Chen and Daniel Cohen-Or. SIGGRAPH 2018. [[paper]](https://arxiv.org/abs/1805.04140) [[code]](https://github.com/kfiraberman/neural_best_buddies)
