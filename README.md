@@ -2,7 +2,7 @@
 
 💡 Using [The Face of Arts](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) and [DST](https://sunniesuhyoung.github.io/DST-page/) to generate geometry-aware face caricatures.
 
-📖 This project in details with analysis: [Geometry-Aware Style Transfer: Implementation and Analysis](https://medium.com/@azmariewang)
+📖 This project in details with analysis on Medium: [Geometry-Aware Style Transfer: Implementation and Analysis](https://azmariewang.medium.com/geometry-aware-style-transfer-implementation-and-analysis-3a9034dfca2d)
 
 
 ## Requirements
