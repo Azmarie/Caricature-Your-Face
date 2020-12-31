@@ -56,6 +56,7 @@ Vincent van Gogh's self-portrait with the style image. Images from left to right
 #### More Results
 
 ![](data/teaser/more.png) 
+![](data/teaser/more-2.png) 
 
 
 ## Acknowledgment
